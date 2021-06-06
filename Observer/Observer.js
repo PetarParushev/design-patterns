@@ -34,4 +34,4 @@ observer.trigger(); // Logs 1
 observer.subscribe(observable2);
 observer.trigger(); // Logs 1 and 2
 observer.unsubscribe(observable1);
-observer.trigger(); // Logs 2K
+observer.trigger(); // Logs 2
